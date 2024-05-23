@@ -7,7 +7,7 @@ import torch
 import time
 from utils.dataset import CloudDataset
 
-base_path = Path('../input/38cloud-cloud-segmentation-in-satellite-images/38-Cloud_training')
+base_path = Path('../input/38-Cloud_training')
 data = CloudDataset(base_path/'train_red',
                     base_path/'train_green',
                     base_path/'train_blue',
